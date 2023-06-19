@@ -66,6 +66,10 @@ a:hover {
   color: #189ab4;
 }
 
+span {
+  font-weight: bold;
+}
+
 .code-image {
   object-fit: fill;
 }

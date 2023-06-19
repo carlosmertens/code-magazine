@@ -1,139 +1,148 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="author" content="Carlos Mertens" />
-    <link href="style.css" rel="stylesheet" />
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Carlos Mertens">
+    <link href="style.css" rel="stylesheet">
     <title>📘 The Code Magazine</title>
   </head>
   <body>
     <header>
-      <h1>📘 The Code Magazine [DEMO]</h1>
+      <h1>📘 The Code Magazine [First Edition]</h1>
 
       <nav>
-        <o>
+        <ol>
           <li><a href="blog.html">Blog</a></li>
           <li><a href="products.html">Products</a></li>
-          <li><a href="#"> Challenges </a></li>
-          <li><a href="#">Flexbox</a></li>
-          <li><a href="#">CSS Grid</a></li>
-        </o>
+          <li><a href="#">Link 3</a></li>
+          <li><a href="#">Link 4</a></li>
+        </ol>
       </nav>
     </header>
 
-    <article>
-      <header>
-        <h2>The Basic Language of the Web: HTML</h2>
+    <main>
+      <article>
+        <header>
+          <h2>The Basic Semantic Elements of HTML</h2>
+          <figure>
+            <img
+              src="/img/laura-jones.jpg"
+              alt="Laura Jones profile photo"
+              width="70"
+              height="70" >
+            <figcaption class="author">
+              Posted by <strong>Laura Jones</strong> on
+              <time datetime="2023-06-16">Monday, June 16th 2023</time>
+            </figcaption>
+          </figure>
 
-        <img
-          src="/img/laura-jones.jpg"
-          alt="Laura Jones photo"
-          width="70"
-          height="70" />
+          <figure>
+            <img
+              class="code-image"
+              src="/img/post-img.jpg"
+              alt="Live HTML code example"
+              width="550"
+              height="350" >
+            <figcaption>Live coding experience</figcaption>
+          </figure>
+          <p>
+            All modern websites and web applications are built using three
+            <em>fundamental</em> technologies: HTML, CSS and JavaScript. These
+            are the languages of the web.
+          </p>
 
-        <p class="author">
-          Posted by <strong>Laura Jones</strong> on Monday, June 21st 2027
-        </p>
+          <p>
+            In this post, let's focus on HTML. We will learn what HTML is all
+            about, and why you too should learn it.
+          </p>
+        </header>
 
-        <img
-          class="code-image"
-          src="/img/post-img.jpg"
-          alt="HTML code example"
-          width="350"
-          height="350" />
-      </header>
+      
 
-      <p>
-        All modern websites and web applications are built using three
-        <em>fundamental</em> technologies: HTML, CSS and JavaScript. These are
-        the languages of the web.
-      </p>
+        <section>
+          <h3>What is HTML?</h3>
 
-      <p>
-        In this post, let's focus on HTML. We will learn what HTML is all about,
-        and why you too should learn it.
-      </p>
+          <p>
+            HTML stands for <span>H</span>yper<span>T</span>ext
+            <span>M</span>arkup <span>L</span>anguage. It's a markup language
+            that web developers use to structure and describe the content of a
+            webpage <mark>(not a programming language)</mark>.
+          </p>
 
-      <h3>What is HTML?</h3>
+          <p>
+            HTML consists of elements that describe different types of content:
+            paragraphs, links, headings, images, video,&nbsp;etc. Web browsers
+            understand HTML and render HTML code as websites.
+          </p>
 
-      <p>
-        HTML stands for <strong>H</strong>yper<strong>T</strong>ext
-        <strong>M</strong>arkup <strong>L</strong>anguage. It's a markup
-        language that web developers use to structure and describe the content
-        of a webpage (not a programming language).
-      </p>
+          <p>In HTML, each element is made up of 3 parts:</p>
 
-      <p>
-        HTML consists of elements that describe different types of content:
-        paragraphs, links, headings, images, video,&nbsp;etc. Web browsers
-        understand HTML and render HTML code as websites.
-      </p>
+          <ol>
+            <li>The opening tag</li>
+            <li>The closing tag</li>
+            <li>The actual element</li>
+            <li>&lt;HTML&gt;&lt;HTML/&gt;</li>
+          </ol>
 
-      <p>In HTML, each element is made up of 3 parts:</p>
+          <p>
+            You can learn more at the
+            <a
+              href="https://developer.mozilla.org/en-US/docs/Web/HTML"
+              target="_blank"
+              >MDN Web Docs</a
+            >.
+          </p>
+        </section>
 
-      <ol>
-        <li>The opening tag</li>
-        <li>The closing tag</li>
-        <li>The actual element</li>
-        <li>&lt;HTML&gt;&lt;HTML/&gt;</li>
-      </ol>
+        <section>
+          <h3>Why should you learn HTML?</h3>
 
-      <p>
-        You can learn more at the
-        <a
-          href="https://developer.mozilla.org/en-US/docs/Web/HTML"
-          target="_blank"
-          >MDN Web Docs</a
-        >.
-      </p>
+          <p>
+            There are countless reasons for learning the fundamental language of
+            the web. Here are 5 of them:
+          </p>
 
-      <h3>Why should you learn HTML?</h3>
+          <ul>
+            <li>To be able to use the fundamental web dev language</li>
+            <li>
+              To hand-craft beautiful websites instead of relying on tools like
+              Wordpress or Wix
+            </li>
+            <li>To build web applications</li>
+            <li>To impress friends</li>
+            <li>To have fun 😃</li>
+          </ul>
 
-      <p>
-        There are countless reasons for learning the fundamental language of the
-        web. Here are 5 of them:
-      </p>
-
-      <ul>
-        <li>To be able to use the fundamental web dev language</li>
-        <li>
-          To hand-craft beautiful websites instead of relying on tools like
-          Wordpress or Wix
-        </li>
-        <li>To build web applications</li>
-        <li>To impress friends</li>
-        <li>To have fun 😃</li>
-      </ul>
-
-      <p>Hopefully you learned something new here. See you next time!</p>
-    </article>
+          <p>Hopefully you learned something new here. See you next time!</p>
+        </section>
+      </article>
+    </main>
 
     <aside class="related-aside">
       <h4 class="related-title">Related Post</h4>
       <ul class="related-list">
         <li>
-          <img src="/img/related-1.jpg" alt="man coding" width="75" />
+          <img src="/img/related-1.jpg" alt="man coding" width="75" >
           <a href="#">How to Learn Web Development</a>
           <p class="related-author">By Jonas Schmedtmann</p>
         </li>
         <li>
-          <img src="/img/related-2.jpg" alt="thunder in the sky" width="75" />
+          <img src="/img/related-2.jpg" alt="thunder in the sky" width="75" >
           <a href="#">The Unknown Power of CSS</a>
           <p class="related-author">By Jim Dillon</p>
         </li>
         <li>
-          <img src="/img/related-3.jpg" alt="lines of code" width="75" />
+          <img src="/img/related-3.jpg" alt="lines of code" width="75" >
           <a href="#">Why JS is Awesome</a>
           <p class="related-author">By Matilda</p>
         </li>
       </ul>
     </aside>
+
     <footer>
       <p class="copyright">Copyright &copy; 2023 by The Code Magazine</p>
     </footer>
   </body>
 </html>
-
-!
