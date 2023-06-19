@@ -4,8 +4,7 @@ Learn basics of Semantic HTML and the basics of CSS with a simple but well struc
 
 ## Instructor
 
-Jonas Schmedtmann
-Web Developer, Designer, and Teacher
+- **Jonas Schmedtmann** - _Web Developer, Designer, and Teacher_
 
 ## Author
 
