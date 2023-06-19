@@ -1,0 +1,10 @@
+video {
+  width: 400px;
+}
+
+nav ol {
+  list-style-type: none;
+  font-weight: bold;
+  display: flex;
+  gap: 1.5rem;
+}
