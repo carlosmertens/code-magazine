@@ -70,6 +70,10 @@ span {
   font-weight: bold;
 }
 
+.profile-image {
+  border-radius: 100%;
+}
+
 .code-image {
   object-fit: fill;
 }
