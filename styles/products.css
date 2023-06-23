@@ -2,3 +2,16 @@ body {
   background: linear-gradient(to bottom right, #00ff2f, #1e90ff, #00ff2f);
 }
 
+a {
+  color: rgb(0, 0, 91);
+  font-weight: bold;
+}
+
+article {
+  text-align: center;
+}
+
+section li {
+  list-style-type: none;
+  font-style: italic;
+}
