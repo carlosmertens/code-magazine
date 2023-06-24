@@ -7,6 +7,12 @@ Baby Blue: #D4F1F4
 Black: #444;
 */
 
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
 body {
   background-color: #d4f1f4;
   font-size: 16px;
