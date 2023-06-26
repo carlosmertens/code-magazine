@@ -1,0 +1,71 @@
+*,
+*::after,
+::before {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+h2 {
+  font-size: 2.5rem;
+}
+
+h3 {
+  font-size: 1.5rem;
+}
+
+nav ol {
+  list-style-type: none;
+  font-size: 1.5rem;
+  font-weight: bold;
+  display: flex;
+  gap: 1.5rem;
+}
+
+.box {
+  width: 5rem;
+  height: 5rem;
+  border: 2px solid gray;
+  background-color: gold;
+  display: inline-block;
+  overflow: auto;
+}
+
+/* .box::before {
+  content: 'Hello';
+} */
+
+.boxes {
+  border: 3px solid lightgray;
+  position: relative;
+}
+
+.square {
+  width: 10rem;
+  height: 10rem;
+}
+
+.box-one {
+  background-color: gold;
+}
+
+.box-two {
+  background-color: tomato;
+  position: relative;
+  left: 4rem;
+  bottom: 4rem;
+  /* z-index: -1; */
+}
+
+.box-three {
+  background-color: dodgerblue;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.box-four {
+  background-color: green;
+}
