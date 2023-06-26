@@ -4,7 +4,7 @@
   box-sizing: border-box;
 }
 
-body{
+body {
   background: linear-gradient(to bottom right, #1e90ff, #00ff2f);
 }
 
@@ -32,7 +32,9 @@ dt {
   margin: 1rem 0 1rem 0;
 }
 
-table, td, th {
+table,
+td,
+th {
   border: 1px solid gray;
   border-collapse: collapse;
   padding: 5px;
@@ -46,3 +48,26 @@ tfoot {
   text-align: left;
 }
 
+/* TWEET SECTION */
+.tweet {
+  border: 3px solid gray;
+}
+
+/* to fix the behaviour when using float property */
+.clearfix::after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+.avatar {
+  width: 5rem;
+  height: 5rem;
+  background-color: gold;
+  float: left;
+  margin-right: 0.5rem;
+}
+
+.clear {
+  clear: both;
+}
