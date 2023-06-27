@@ -17,7 +17,7 @@ Black: #444;
 
 html {
   /* 62.5% of 16px (browser standards) = 10 px */
-  font-size: 62.5%
+  font-size: 62.5%;
 }
 
 body {
@@ -35,10 +35,9 @@ h1 {
   font-style: italic;
 }
 
-nav ol {
-  list-style-type: none;
-  font-weight: bold;
+nav {
   display: flex;
+  font-weight: bold;
   gap: 1.5rem;
 }
 

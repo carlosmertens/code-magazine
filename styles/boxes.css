@@ -16,11 +16,10 @@ h3 {
   font-size: 1.5rem;
 }
 
-nav ol {
-  list-style-type: none;
-  font-size: 1.5rem;
-  font-weight: bold;
+nav {
   display: flex;
+  font-size: 1.6rem;
+  font-weight: bold;
   gap: 1.5rem;
 }
 

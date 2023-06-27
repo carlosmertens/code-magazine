@@ -21,10 +21,9 @@ a:hover {
   color: tomato;
 }
 
-nav ol {
-  list-style-type: none;
-  font-weight: bold;
+nav {
   display: flex;
+  font-weight: bold;
   gap: 1.5rem;
 }
 

@@ -20,10 +20,9 @@ video {
   width: 400px;
 }
 
-nav ol {
-  list-style-type: none;
-  font-weight: bold;
+nav {
   display: flex;
+  font-weight: bold;
   gap: 1.5rem;
 }
 
