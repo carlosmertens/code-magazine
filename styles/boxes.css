@@ -2,6 +2,7 @@
 *::after,
 ::before {
   box-sizing: border-box;
+ 
 }
 
 html {
@@ -67,4 +68,41 @@ nav {
 
 .box-four {
   background-color: green;
+}
+
+/* STAIRCASE SECTION */
+
+.staircase {
+  height: 40rem;
+  width: 40rem;
+  border: 3px solid gray;
+  box-sizing: content-box;
+}
+
+.step {
+  height: 10rem;
+  width: 10rem;
+  background-color: yellow;
+  border: 3px solid tomato;
+}
+
+.row-1 {}
+
+.row-2 {
+  background-color:crimson;
+  display: inline-block;
+  padding-left: 10rem;
+  box-sizing: content-box;
+}
+
+.row-3 {
+  background-color:crimson;
+  display: inline-block;
+  padding-left: 20rem;
+}
+
+.row-4 {
+  background-color:crimson;
+  display: inline-block;
+  padding-left: 30rem;
 }
