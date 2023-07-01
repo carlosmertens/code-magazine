@@ -1,0 +1,63 @@
+/* ********** BACKGROUND PAGE ********** */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  height: 100vh;
+  background-color:#05445e;
+  background-image: linear-gradient( rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(/img/alfajor3.jpg);
+  background-size: cover;
+  background-position: center;
+  color: #f5f5f5;
+}
+
+nav {
+  /* background-color: #594c4c; */
+  display: flex;
+  justify-content: space-between;
+  font-size: 2rem;
+}
+
+.logo {
+  color: #594c4c;
+  width: 12rem;
+}
+
+.nav-links {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  margin-right: 5rem;
+}
+
+.nav-links a {
+  color: #f5f5f5;
+  text-decoration: none;
+  padding-right: 3rem;
+}
+
+
+.hero-section {
+  height: 70vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  font-size: 5rem;
+  text-transform: uppercase
+}
+
+h2 {
+  font-size: 3rem;
+}
