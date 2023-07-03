@@ -14,7 +14,6 @@ html {
 body {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 1.5rem;
-  
 }
 
 #homepage {
@@ -116,59 +115,3 @@ span {
 }
 
 /* ********** LAYOUTS PAGE ********** */
-
-#page-layouts {
-  margin: 0;
-  padding: 0;
-}
-
-.nav {
-  background-color: #1a1a1a;
-  color: #f5f5f5;
-  display: flex;
-  justify-content: center;
-  text-align: center;
-}
-
-.nav li {
-  list-style-type: none;
-  font-size: 1.8rem;
-  line-height: 2;
-}
-
-.nav-links a {
-  color: #f5f5f5;
-  text-decoration: none;
-}
-
-.nav-links a:hover {
-color: lime;
-text-decoration: underline;
-}
-
-@media screen and (min-width: 786px) {
-  .nav {
-    justify-content: end;
-  }
-  .nav-links {
-    display: flex;
-  }
-  .nav-links li {
-    padding: 1rem 2rem;
-  }
-}
-
-/* GALLERY SECTION */
-
-.gallery {
-  display: grid;
-  justify-items: center;
-}
-
-.gallery img {
-  width: 250px;
-  height: 250px;
-}
-
-
-
