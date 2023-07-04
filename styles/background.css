@@ -28,7 +28,10 @@ nav {
 
 .logo {
   color: #594c4c;
-  width: 10rem;
+  width: 6rem;
+  border-radius: 50%;
+  margin-left: 2rem;
+  margin-top: 2rem;
 }
 
 .nav-links {
@@ -66,4 +69,8 @@ h1 {
 
 h2 {
   font-size: 1.5rem;
+}
+
+.carma-logo {
+  width: 300px;
 }
