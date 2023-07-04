@@ -1,5 +1,7 @@
 /* ********** Global CSS ********** */
 
+/* @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap'); */
+
 *,
 *::before,
 *::after {
@@ -25,8 +27,10 @@ body {
 .homepage-title {
   color: #05445e;
   text-transform: uppercase;
-  font-size: 2.5rem;
-  font-style: italic;
+  font-size: 2rem;
+  /* font-style: italic; */
+  font-family: 'Press Start 2P', cursive;
+  margin-bottom: 5rem;
 }
 
 nav {
