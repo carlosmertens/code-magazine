@@ -18,6 +18,15 @@ body {
   font-size: 1.5rem;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Press Start 2P', cursive;
+}
+
 #homepage {
   background-color: #d4f1f4;
   color: #444;
@@ -27,9 +36,8 @@ body {
 .homepage-title {
   color: #05445e;
   text-transform: uppercase;
-  font-size: 2rem;
+  font-size: 1.8rem;
   /* font-style: italic; */
-  font-family: 'Press Start 2P', cursive;
   margin-bottom: 5rem;
 }
 
@@ -37,14 +45,16 @@ nav {
   display: flex;
   font-weight: bold;
   gap: 1.5rem;
+  margin-bottom: 5rem;
 }
 
 h2 {
-  font-size: 3rem;
+  font-size: 2rem;
 }
 
 h3 {
-  font-size: 2rem;
+  font-size: 1.5rem;
+  margin: 5rem 0 2rem;
 }
 
 h4 {

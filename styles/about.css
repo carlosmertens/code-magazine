@@ -70,3 +70,21 @@ tfoot {
 .clear {
   clear: both;
 }
+
+/* TRUNCATE SECTION  */
+
+.truncate {
+  width: 65ch;
+  border: 3px solid gold;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  line-clamp: 3;
+}
+
+.text-col-2 {
+  width: 65ch;
+  column-count: 2;
+  column-gap: 3rem;
+  column-rule: 3px dotted #999;
+}
