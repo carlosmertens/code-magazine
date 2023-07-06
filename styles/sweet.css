@@ -1,0 +1,149 @@
+/* font-family: 'Monoton', cursive; */
+/* font-family: 'Quicksand', sans-serif; */
+
+/* :root {
+  font-size: 62.5%;
+} */
+
+html {
+  font-size: 62.5%;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Quicksand', sans-serif;
+  background-color: #d6d3d3;
+  font-size: 1.6rem;
+}
+
+main {
+  width: 75%;
+  margin: 4rem auto;
+  background-color: #eeeeee;
+  padding: 3rem;
+  border: 2px solid #f5f5f5;
+  border-radius: 10px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.header_main-img-container {
+  height: 20rem;
+  background-image: url(/img/main-header.jpg);
+  background-size: cover;
+}
+
+h1 {
+  color: #dad8d8;
+  text-align: center;
+  padding: 1.5rem;
+  font-family: 'Monoton', cursive;
+  font-size: 7rem;
+  font-weight: 700;
+  background-color: #f58ea0;
+  text-shadow: 2px 2px 0 #1ed7f0, 2px -2px 0 #1ed7f0, -2px 2px 0 #4074b5,
+    -2px -2px 0 #1ed7f0, 2px 0px 0 #1ed7f0, 0px 2px 0 #1ed7f0,
+    -2px 0px 0 #1ed7f0, 0px -2px 0 #1ed7f0;
+}
+
+h2 {
+  color: #f112f1;
+  background-color: #dad8d8;
+  padding: 1rem;
+  border-radius: 10px;
+  font-size: 3rem;
+}
+
+p {
+  padding: 1rem;
+}
+
+/* ********** SECTION TREATS ************ */
+
+a img {
+  width: 10rem;
+  height: 10rem;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+#lollipop {
+  float: left;
+  border: 5px solid #ebf64d;
+  margin: 1rem 1.5rem 0.5rem 0;
+}
+
+#candy-floss {
+  float: right;
+  border: 5px solid #1ed7f0;
+  margin: 1rem;
+}
+
+#jellybeans {
+  float: left;
+  border: 5px solid #ff69b4;
+  margin: 1rem 1.5rem 0.5rem 0;
+}
+
+/* ********** SECTION PARTNERS *********** */
+
+.section_partners h3 {
+  text-align: center;
+  font-size: 2rem;
+  padding: 2rem;
+  margin-bottom: 1rem;
+}
+
+.section_partners ul {
+  background-color: #f58ea0;
+  list-style-type: none;
+  text-align: center;
+  padding: 8px;
+  border-radius: 10px;
+}
+
+.section_partners li:hover {
+  background-color: #ebf64d;
+  border-radius: 8px;
+}
+
+footer h3 {
+  color: #0000ee;
+  text-align: center;
+  text-transform: uppercase;
+  padding: 2rem;
+}
+
+/* ********** PAGE PARTNERS *********** */
+
+.contact-img_continer {
+  height: 20rem;
+  background-image: url(/img/contact-header.jpeg);
+  background-size: cover;
+}
+
+.contact h2 {
+  background-color: inherit;
+  color: #333;
+  font-weight: 400;
+}
+
+.contact ul {
+  background-color: #1ed7f0;
+  list-style-type: none;
+  margin: 2rem;
+  padding: 1rem;
+  border-radius: 8px;
+}
+
+.contact a {
+  font-size: 1.8rem;
+  letter-spacing: 1px;
+}
