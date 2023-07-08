@@ -61,6 +61,20 @@ h2 {
   font-size: 3rem;
 }
 
+.section_topics h2::after {
+  content: "\f564";
+  font-family: FontAwesome;
+  font-style: normal;
+  font-weight: normal;
+  text-decoration: inherit;
+  color: #f112f1;
+  font-size: 3rem;
+  padding-right: 0.5em;
+  /* position: absolute; */
+  /* top: 10px;
+  left: 0; */
+}
+
 p {
   padding: 1rem;
 }
